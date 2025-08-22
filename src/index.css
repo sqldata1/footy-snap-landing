@@ -8,35 +8,57 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dark gaming theme */
+    --background: 220 27% 5%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 23% 8%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 23% 8%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 339 90% 51%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 23% 12%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 23% 12%;
+    --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 220 23% 15%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 23% 15%;
+    --input: 220 23% 12%;
+    --ring: 339 90% 51%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Card rarity gradients */
+    --gradient-goat: linear-gradient(135deg, #3b82f6, #06b6d4);
+    --gradient-otw: linear-gradient(135deg, #f97316, #ef4444);
+    --gradient-gold: linear-gradient(135deg, #fbbf24, #f59e0b);
+    --gradient-silver: linear-gradient(135deg, #94a3b8, #64748b);
+    --gradient-bronze: linear-gradient(135deg, #ea580c, #d97706);
+    
+    /* Hero gradient */
+    --gradient-hero: linear-gradient(135deg, #1e1b4b, #312e81, #1e40af);
+    
+    /* Brand colors */
+    --brand-red: 339 90% 51%;
+    --brand-yellow: 45 93% 47%;
+    
+    /* Shadows */
+    --shadow-glow: 0 0 40px hsl(var(--primary) / 0.3);
+    --shadow-card: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
